@@ -4,7 +4,11 @@ from server import FileServer
 
 s = FileServer()
 
-s.run()
+# s.run()
+print(s.getIP())
+print(s.getMAC())
+print(s.IP)
+print(s.MAC)
 
 # while True:
 #     conn, addr = s.accept()     # Establish connection with client.
